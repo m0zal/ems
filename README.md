@@ -25,6 +25,17 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Installing
 
+1. git clone https://github.com/m0zal/ems.git
+2. cd ems/
+3. composer install
+4. php artisan key:generate
+5. add .env with database config
+6. php artisan migrate
+7. php artisan db:seed --class=EmployeeSeeder
+8. add email configs to .env
+7. php artisan serve
+8. http://localhost:8000/employee
+
 ## Database
 
 !
