@@ -34,7 +34,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 7. php artisan db:seed --class=EmployeeSeeder
 8. add email configs to .env
 7. php artisan serve
-8. http://localhost:8000/employee
+8. http://localhost:8000/employees
 
 ## Database
 
